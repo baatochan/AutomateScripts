@@ -4,9 +4,11 @@ All the scripts connected with sending MLP wallpapers to telegram.
 ## Some background
 I'm running [Muzei](https://github.com/romannurik/muzei) app as a wallpaper with [Muzei Ponies](https://github.com/berwyn/muzei-ponies) as a source. It's set to download a new image from [Derpibooru](https://derpibooru.org/) every hour. Some of those images are pretty neat and it would be nice to have a simple way to share them to telegram where I chat with all my friends.
 
-BTW the images are searched on Derpibooru with this query:
+BTW the images are searched on Derpibooru with this query (_that should be one line but I broke it for easier reading_):
 ```
-safe, score.gte:200, -transparent background, -monochrome,  -comic, -twitter, -oc:anon, -vulgar, -artist:badumsquish, -impossibly wide hips, -them's fightin' herds, -obese, -morbidly obese, -impossibly large belly, aspect_ratio:0.5625~0.3
+safe, score.gte:200, -transparent background, -monochrome,  -comic, -twitter, -oc:anon, -vulgar, 
+-artist:badumsquish, -impossibly wide hips, -them's fightin' herds, -obese, -morbidly obese, 
+-impossibly large belly, aspect_ratio:0.5625~0.3
 ```
 
 The idea was started by [@Macter4][GitHub Macter4] who set up script for sharing every single wallpaper. At the beginning I've just wanted to use exact copy of [@Macter4's][GitHub Macter4] script, but his script needs premium version of [Automate](https://llamalab.com/automate/) which I don't have yet. So I thought that it should be possible to make it shorter as it's enough for me to share only those I like via pressing a button (manually running a script). And it turns out it IS possible.
