@@ -1,6 +1,6 @@
 # Simple commands for Telegram bot
 
-_`###BOTTOKEN###` and `###CHATID###` are variables witch have to be changed before running_
+_`###BOTTOKEN###` and `###CHATID###` are variables which have to be changed before running_
 
 * `https://api.telegram.org/bot###BOTTOKEN###/`  
 	You put commands after `/`.
@@ -8,8 +8,8 @@ _`###BOTTOKEN###` and `###CHATID###` are variables witch have to be changed befo
 * `https://api.telegram.org/bot###BOTTOKEN###/getUpdates`  
 	See recent messages sent to your bot by tg users.
 
-* `https://api.telegram.org/bot###BOTTOKEN###/sendMessage?chat_id=###CHATID###&text="Hello%20World!"`  
-	Send `"Hello World!"` message to specified chat.
+* `https://api.telegram.org/bot###BOTTOKEN###/sendMessage?chat_id=###CHATID###&text=Hello%20World!`  
+	Send `Hello World!` message to specified chat.
 
 * `https://api.telegram.org/bot###BOTTOKEN###/sendMessage?chat_id=201942014&text=>>1`  
 	Send `>>1` message to specified chat.
