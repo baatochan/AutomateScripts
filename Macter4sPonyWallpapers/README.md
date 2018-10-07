@@ -9,4 +9,6 @@ Every time it gets the new wallpaper notification it sends that wallpaper as a p
 
 Sometimes it may send multiple posts with the same wallpaper in a short period of time.
 
+It requires Premium version of Automate.
+
 [GitHub Macter4]: https://github.com/Macter4

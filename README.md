@@ -4,3 +4,5 @@ Few scripts (flows) for Android app called [Automate](https://llamalab.com/autom
 Author: Bartosz Rodziewicz
 
 Author and license available in root apply to every project if not stated otherwise.
+
+Each script is shared as a `.flo` file that can be imported into Automate and `.pdf` file which contain graphical representation of the flow.
